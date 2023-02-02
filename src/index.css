@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.selector{
+  display: block;
+  margin-left: 40%;
+  width: 20%;
+}
+.meme span{
+  position: absolute;
+  width: 100%;
+  margin-top: 60px;
+  left: 0px;
+  font-size: 38px;
+  color: white;
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+.meme .span2{
+  margin-top: 800px;
+}
+.meme img{
+  width: 80%;
+  height: 50%;
+  
+}
+body, .meme{
+  background: #000;
+}
